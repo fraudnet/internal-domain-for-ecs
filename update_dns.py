@@ -4,6 +4,7 @@
 
 import argparse
 import os
+import time
 import boto3 as aws
 
 def _parse_args(args=None):
@@ -66,4 +67,5 @@ def main(args=None):
 
 
 if __name__ == '__main__':
+    time.sleep(60) # needs a pause otherwise there is no ip
     main()
