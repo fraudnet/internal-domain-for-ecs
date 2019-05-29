@@ -3,7 +3,6 @@
 # https://gist.github.com/chrisguitarguy/e9cb271f6ac882627d0d61efe03dc8ae was used as inspiration
 
 import argparse
-import requests
 import os
 import boto3 as aws
 
